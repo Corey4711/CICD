@@ -1,29 +1,37 @@
 package ie.atu.week4;
-
-input java.util.Scanner;
+import java.util.Scanner;
 
 public class Calc {
 
-   public static void main(String[] args) {
+    public static void main(String[] args)
+        {
+            int x, y, sum;
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter the first number: ");
+            x = sc.nextInt();
+            System.out.print("Enter the second number: ");
+            y = sc.nextInt();
 
-       System.out.println("Input your first number");
-       Scanner inputs = new Scanner(System.in);
-       int firstNumber = inputs.nextInt();
+            sum = add(x,y);
 
-       System.out.println("Input your second number");
-       int secondNumber = inputs.nextInt();
+           System.out.println("Input your first number");
+           Scanner inputs = new Scanner(System.in);
+           int firstNumber = inputs.nextInt();
+
+           System.out.println("Input your second number");
+           int secondNumber = inputs.nextInt();
+           Multiply(firstNumber,secondNumber);
     }
 
-            //ADD Corey
-
-
-            //Multiply Lorcan
-public static void Multiply() {
-
-    int total = firstNumber * secondNumber;
-    System.out.println("The total number is " + total);
+        public static void Multiply(int firstNumber,int secondNumber){
+            int total = firstNumber * secondNumber;
+            System.out.println("The total number is " + total);
         }
 
-            //Delete Niall
-        }
+    public static int add(int a, int b)
+    {
+        int sum = a + b;
+        System.out.print(a + " + " + b + " = " + sum);
+        return sum;
+    }
 }
