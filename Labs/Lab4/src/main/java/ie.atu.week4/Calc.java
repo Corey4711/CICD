@@ -2,7 +2,7 @@ package ie.atu.week4;
 
 public class Calc {
 
-    static void main(String[] args){
+    static void main(String[] args)
         {
 
 
