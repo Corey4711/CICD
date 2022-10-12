@@ -1,12 +1,11 @@
 package ie.atu.week4;
 
-input java.util.Scanner;
+import java.util.Scanner;
 
 public class Calc {
 
    public static void main(String[] args) {
 
-       int firstNumber, secondNumber, total;
        System.out.println("Input your first number");
        Scanner inputs = new Scanner(System.in);
        int firstNumber = inputs.nextInt();
@@ -19,12 +18,11 @@ public class Calc {
 
 
             //Multiply Lorcan
-public static void Multiply(int firstNumber, int secondNumber) {
+public static void multiply(int firstNumber, int secondNumber) {
 
     int total = firstNumber * secondNumber;
     System.out.println("The total number is " + total);
         }
 
             //Delete Niall
-        }
 }
