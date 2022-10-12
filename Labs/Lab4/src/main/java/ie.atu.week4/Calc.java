@@ -2,14 +2,16 @@ package ie.atu.week4;
 
 public class Calc {
 
-    //ADD Corey
+    static void main(String[] args){
+        {
 
 
+            //ADD Corey
 
 
-    //Multiply Lorcan
+            //Multiply Lorcan
 
 
-
-    //Devide Niall
+            //Delete Niall
+        }
 }
