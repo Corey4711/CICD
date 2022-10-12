@@ -1,5 +1,4 @@
 package ie.atu.week4;
-
 import java.util.Scanner;
 
 public class Calc {
@@ -15,10 +14,18 @@ public class Calc {
 
             sum = add(x,y);
 
-            //Multiply Lorcan
+           System.out.println("Input your first number");
+           Scanner inputs = new Scanner(System.in);
+           int firstNumber = inputs.nextInt();
 
+           System.out.println("Input your second number");
+           int secondNumber = inputs.nextInt();
+           Multiply(firstNumber,secondNumber);
+    }
 
-            //Delete Niall
+        public static void Multiply(int firstNumber,int secondNumber){
+            int total = firstNumber * secondNumber;
+            System.out.println("The total number is " + total);
         }
 
     public static int add(int a, int b)
