@@ -22,14 +22,28 @@ class CalcTest {
     }
     @Test
     void multiplySuccess(){
-        assertEquals(20,calc.Multiply(5,4));
+        assertEquals(20,calc.multiply(5,4));
     }
     @Test
     void multiplyFail(){
-        assertNotEquals(3,calc.Multiply(5,4));
+        assertNotEquals(3,calc.multiply(5,4));
+    }
+    @Test
+    void subSuccess(){
+        assertEquals(1,calc.sub(5,4));
+    }
+    @Test
+    void subFail(){
+        assertNotEquals(3,calc.sub(5,4));
+    }
+    @Test
+    void divideSuccess(){
+        assertEquals(5,calc.divide(10,2));
+    }
+    @Test
+    void divideFail(){
+        assertNotEquals(3,calc.divide(10,2));
     }
 
-    @org.junit.jupiter.api.AfterEach
-    void tearDown() {
-    }
+
 }
