@@ -15,7 +15,7 @@ public class Calc {
             sum = add(x,y);
             sum = sub(x,y);
             sum = multiply(x,y);
-            sum = devide(x,y);
+            sum = divide(x,y);
     }
 
     public static int multiply(int a, int b){
